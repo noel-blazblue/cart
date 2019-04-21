@@ -22,7 +22,6 @@
     bottom: 0;
     left: 50%;
     margin-left: -450px;
-    background: rgba(0,0,0,0.1);
 }
 .screen01 {
     background: url("../images/01-bg.png") no-repeat center bottom;
