@@ -36,8 +36,8 @@ $(function($){
             });
             $('.screen08').on('mousemove',function(e){
                 $(this).find('.hand').css({
-                    left: e.clientX - 290,
-                    top:  e.clientY - 100,
+                    left: e.clientX - 490,
+                    top:  e.clientY - 320,
                 })
             });
             $('.screen08 .again').on('click',function(){

@@ -155,7 +155,7 @@
     }
     to {
         opacity: 1;
-        transform: translate(-80px,740px);
+        transform: translate(-80px,955px);
     }
 }
 
@@ -220,7 +220,7 @@
 
     }
     to {
-        transform: translate(190px,750px) rotate(45deg);
+        transform: translate(190px,955px) rotate(45deg);
     }
 }
 
@@ -384,7 +384,7 @@
     }
     to {
         opacity: 1;
-        transform: translateY(550px) scale(0.2) rotate(30deg);
+        transform: translateY(960px) scale(0.2) rotate(30deg);
     }
 }
 /*第六屏*/
@@ -399,7 +399,7 @@
 .screen06 .cloud{
     position: absolute;
     left: 0;
-    top: -110px;
+    top: -250px;
 }
 .screen06 .cloud img:first-child{
     animation: cloud06 40s linear infinite alternate;
@@ -420,7 +420,7 @@
 }
 .screen06 .box {
     position: absolute;
-    left: 130px;
+    left: -50px;
     top: 200px;
     z-index: 1002;
 }
@@ -489,7 +489,7 @@
     transform-origin: left bottom;
 }
 .screen06.now .car .worker{
-    animation: worker06 2.1s linear 2s forwards;
+    animation: worker06 3s linear 2s forwards;
 }
 .screen06.now .text img:first-child{
     opacity: 0;
@@ -507,19 +507,19 @@
         transform: scale(1);
     }
     66.7%{
-        transform: scale(1) translateY(-90px);
+        transform: scale(1) translateY(-100px);
     }
     100%{
-        transform: scale(1) translateY(-90px) translateX(200px);
+        transform: scale(1) translateY(-106px) translateX(450px);
     }
 }
 .screen06 .car .say {
-    right: -300px;
-    top: -390px;
+    right: -550px;
+    top: -410px;
 }
 .screen06.now .car .say{
     opacity: 1;
-    transition: all 0.5s linear 4.1s;
+    transition: all 0.5s linear 5s;
 }
 .screen06 .person {
     position: absolute;
