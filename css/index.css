@@ -594,7 +594,7 @@
 .screen08 .btn {
     position: absolute;
     left: 50%;
-    top: 100px;
+    top: 0px;
     transform: translateX(-50%);
     width: 389px;
     height: 160px;
@@ -617,5 +617,5 @@
 .screen08 .again {
     position: absolute;
     right: 0;
-    top: 150px;
+    top: 50px;
 }
